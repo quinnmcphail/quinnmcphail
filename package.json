@@ -1,0 +1,15 @@
+{
+  "name": "quinnmcphail",
+  "version": "0.0.1",
+  "description": "A personal card for Quinn McPhail (@quinnmcphail)",
+  "main": "index.js",
+  "bin": {
+    "quinnmcphail": "./index.js"
+  },
+  "author": "Quinn McPhail <quinnmcphail@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  }
+}
