@@ -11,8 +11,12 @@ const options = {
 
 const data = {
   name: chalk.white("Quinn McPhail"),
+  student: chalk.white("CIT Undergrad - Web Dev"),
+  studentGroup: chalk.white("Salesforce Student Group Leader"),
+  school: chalk.blue("IUPUI"),
   handle: chalk.blue("quinnmcphail"),
-  work: chalk.white("Salesforce Contract Consultant @ CleanSlate"),
+  workTitle: chalk.white("Salesforce Contract Consultant"),
+  workLocation: chalk.blue("CleanSlate"),
   twitter: chalk.blue("https://twitter.com/quinnmcphail"),
   github: chalk.blue("https://github.com/quinnmcphail"),
   linkedin: chalk.blue("https://linkedin.com/in/quinnmcphail"),
@@ -26,12 +30,16 @@ const data = {
   labelCard: chalk.white.bold("      Card:")
 };
 
-const output = `${data.name} / ${data.handle}\n\n
-${data.labelWork} ${data.work}\n
-${data.labelTwitter} ${data.twitter}\n
-${data.labelGitHub} ${data.github}\n
-${data.labelLinkedIn} ${data.linkedin}\n
-${data.labelTrailhead} ${data.trailhead}\n
+const output = `${data.name} / ${data.handle}
+${data.student} @ ${data.school}
+${data.studentGroup} @ ${data.school}
+
+${data.labelWork} ${data.workTitle} @ ${data.workLocation}
+${data.labelTwitter} ${data.twitter}
+${data.labelGitHub} ${data.github}
+${data.labelLinkedIn} ${data.linkedin}
+${data.labelTrailhead} ${data.trailhead}
+
 ${data.labelCard} ${data.npx}
 `;
 
