@@ -1,4 +1,4 @@
-# quinnmcphail
+# npm Business Card
 
 <center><img width="550" style="margin-bottom: 20px;" src="img/card.png" /></center>
 
