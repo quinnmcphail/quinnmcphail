@@ -4,11 +4,19 @@
   "description": "A personal card for Quinn McPhail (@quinnmcphail)",
   "main": "index.js",
   "bin": {
-    "quinnmcphail": "./index.js"
+    "quinnmcphail": "./bin/card.js"
   },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js"
+  },
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
   "author": "Quinn McPhail <quinnmcphail@me.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1"
   }

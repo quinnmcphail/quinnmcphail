@@ -2,6 +2,8 @@
 
 const boxen = require("boxen");
 const chalk = require("chalk");
+const fs = require("fs");
+const path = require("path");
 
 const options = {
   padding: 1,
@@ -43,4 +45,7 @@ ${data.labelTrailhead} ${data.trailhead}
 ${data.labelCard} ${data.npx}
 `;
 
-console.info(chalk.red(boxen(output, options)));
+fs.writeFileSync(
+  path.join(__dirname, "bin/output"),
+  chalk.red(boxen(output, options))
+);
