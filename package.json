@@ -6,6 +6,14 @@
   "bin": {
     "quinnmcphail": "./bin/card.js"
   },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/quinnmcphail/quinnmcphail.git"
