@@ -6,6 +6,10 @@
   "bin": {
     "quinnmcphail": "./bin/card.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quinnmcphail/quinnmcphail.git"
+  },
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js"
