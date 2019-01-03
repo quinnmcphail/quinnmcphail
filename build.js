@@ -25,7 +25,7 @@ const data = {
   studentGroup: chalk.white("Salesforce Student Group Leader"),
   school: chalk.blue("IUPUI"),
   handle: chalk.blue("quinnmcphail"),
-  workTitle: chalk.white("Salesforce Developer Contractor"),
+  workTitle: chalk.white("Salesforce Consultant Contractor"),
   workLocation: chalk.blue("CleanSlate"),
   twitter: chalk.blue("https://twitter.com/quinnmcphail"),
   github: chalk.blue("https://github.com/quinnmcphail"),
