@@ -11,6 +11,14 @@ const options = {
   borderStyle: "round"
 };
 
+const headerOptions = {
+  align: "center",
+  borderColor: "blue",
+  borderStyle: "round",
+  margin: 1,
+  padding: 1
+};
+
 const data = {
   name: chalk.white("Quinn McPhail"),
   student: chalk.white("CIT Undergrad - Web Dev"),
@@ -32,9 +40,11 @@ const data = {
   labelCard: chalk.white.bold("      Card:")
 };
 
-const output = `${data.name} / ${data.handle}
+const header = `${data.name} / ${data.handle}
 ${data.student} @ ${data.school}
-${data.studentGroup} @ ${data.school}
+${data.studentGroup} @ ${data.school}`;
+
+const output = `${boxen(header, headerOptions)}
 
 ${data.labelWork} ${data.workTitle} @ ${data.workLocation}
 ${data.labelTwitter} ${data.twitter}
