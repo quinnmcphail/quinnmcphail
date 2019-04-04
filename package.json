@@ -1,6 +1,6 @@
 {
   "name": "quinnmcphail",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "A personal card for Quinn McPhail (@quinnmcphail)",
   "main": "index.js",
   "bin": {
